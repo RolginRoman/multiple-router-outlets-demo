@@ -1,0 +1,18 @@
+<h1>Multiple Outlets Demo</h1>
+
+<navbar></navbar>
+
+<div class="row">
+  <div class="col-4">
+    Secondary Outlet (sidebar)
+    <router-outlet name="sidebar"></router-outlet>
+  </div>
+  <div class="col-8">
+    Primary Outlet
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<div style="position: absolute; bottom: 0; width: 100%; height: 20px;">
+    <router-outlet name="footer"></router-outlet>
+</div>

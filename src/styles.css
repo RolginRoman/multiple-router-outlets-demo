@@ -1,0 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.navbar {
+  justify-content: space-around;
+}
+
+.navbar-nav {
+  flex-direction: row;
+
+}
+
+.nav-link {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
